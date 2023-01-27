@@ -1,0 +1,35 @@
+<div class="wrapper">
+  <div class="sub-header py-4">
+      <a class="mx-4" href="">ALL</a>
+      <a href="">LIVE</a>
+      <a class="mx-4" href="">Draft  </a>
+      <a href="">ARCHIVED</a>
+    </div>
+  <div class="content ml-4">
+    <div class="container">
+      <mat-grid-list cols="4" rowHeight="1:1.4">
+        <mat-grid-tile *ngFor="let i of [].constructor(7)">
+          <mat-card class="example-card">
+            <mat-card-header>
+           
+            </mat-card-header>
+            <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg" alt="Photo of a Shiba Inu">
+            <mat-card-content>
+              <h5>xyz</h5>
+              <p>Last updated : 04/08/2022</p>
+              <p>
+               
+              </p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-button>LIKE</button>
+              <button mat-button>SHARE</button>
+            </mat-card-actions>
+          </mat-card>
+          
+        </mat-grid-tile>
+        
+      </mat-grid-list>
+    </div>
+  </div>
+</div>

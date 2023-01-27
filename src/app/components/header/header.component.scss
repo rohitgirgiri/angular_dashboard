@@ -1,0 +1,50 @@
+mat-toolbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    border-bottom: 1px solid black;
+  }
+  
+  ul {
+    li {
+      list-style: none;
+    }
+  }
+  .menubtn {
+    outline: none;
+    border: 0;
+    background:transparent;
+  }
+  .create-course{
+      background-color: #479bc0; /* Green */
+      // border: none;
+      color: white;
+      // padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;  
+  }
+  
+  .user {
+    font-size: 14px;
+  }
+  mat-toolbar {
+    background: #f7f7f7;
+  }
+  .user-image {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    &-icon {
+      height: 18px;
+      font-size: 16px;
+    }
+  }
+  
+  ::ng-deep {
+    .mat-menu-content {
+      width: 160px;
+    }
+  }
+  

@@ -1,0 +1,9 @@
+<mat-sidenav-container>
+  <mat-sidenav mode="side" [opened]="sideBarOpen">
+    <app-sidenav></app-sidenav>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-header (toggleSidebarForMe)="sideBarToggler()"></app-header>
+    <app-content> </app-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

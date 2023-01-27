@@ -1,0 +1,25 @@
+<mat-toolbar>
+  <mat-toolbar-row class="justify-content-between">
+    <div class="row">
+      <div class="col-sm">
+        <button class="menubtn mt-1" mat-icon-button (click)="toggleSidebar()">
+          <mat-icon>menu</mat-icon>
+        </button>
+      </div>
+      <div class="col-sm">
+        <h2>{{ sidenavItem }}</h2>
+      </div>
+    </div>
+    <div class="row mr-2 ml-auto">
+      <ul class="row m-0 align-items-center">
+        <li>
+          <button class="create-course mx-2">CREATE COURSE</button>
+          <img src="./assets/user.jpg" alt="" class="user-image mr-1 p-1" />
+          <button class="menubtn" mat-fab extended>
+            <mat-icon class="p-1">more_vert</mat-icon>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>

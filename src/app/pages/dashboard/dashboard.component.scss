@@ -1,0 +1,40 @@
+mat-card {
+  width: calc(100% - 80px);
+  height: calc(100% - 80px);
+  font-size: calc(0.2vw + 0.2vh + 1vmin);
+  border: solid black 1px;
+  border-radius: none;
+  min-width: 120px;
+}
+.category-tag {
+  background-color: #c6bebe;
+  border-radius: 6px;
+}
+.status-tag {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  background-color: rgb(110, 107, 107);
+  span {
+    text-align: center;
+    padding: 5px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+a:active {
+  text-decoration: underline;
+  color: #9f1e1e;
+}
+.LIVE-in {
+  color: red;
+}
+.DRAFT-in {
+  color: green;
+}
+.ARCHIEVED-in {
+  color: #4c4949;
+}
